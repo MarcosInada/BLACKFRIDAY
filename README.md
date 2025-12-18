@@ -1,87 +1,108 @@
-# BLACKFRIDAY 
-! 
-[Dashboard Power BI BLACK Friday]
-(Captura de tela 2025-12-10 044624.png)
+# BLACKFRIDAY
+Dashboard em Power BI para análise de perfil de cliente durante a Black Friday.
 
+🛒 Black Friday – Análise do Perfil dos Clientes 📊 Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
 
+Este projeto apresenta uma análise completa sobre o perfil dos clientes no período de Black Friday, explorando padrões de compra, comportamento, hábitos e oportunidades estratégicas para aumentar as vendas e a segmentação.
 
-Dashbord em Power Bi para analise de perfil de cliente durante a blackfriday.
-🛒 Black Friday – Análise do Perfil dos Clientes
-📊 Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
+📝 Contexto do Projeto
+A ABC Private Limited, uma empresa do setor de varejo, busca otimizar sua estratégia de vendas através da análise de dados. O objetivo principal é compreender o comportamento de compra dos clientes em relação a diferentes categorias de produtos de alto volume.
 
-Este projeto apresenta uma análise completa sobre o perfil dos clientes em período de Black Friday, explorando padrões de compra, comportamento, hábitos e oportunidades estratégicas para aumentar vendas e segmentação.
+A empresa deseja migrar de uma estratégia de marketing generalista para um modelo de ofertas personalizadas. Para isso, é necessário prever quanto um cliente está disposto a gastar em determinados produtos com base em seu perfil demográfico e histórico recente.
 
-O objetivo é responder perguntas essenciais como:
+💾 Sobre o Conjunto de Dados
+Os dados referem-se ao resumo de compras do último mês e contêm informações detalhadas que cruzam o perfil do consumidor com os produtos adquiridos:
 
-Quem são os clientes que compram mais na Black Friday?
+Dados Demográficos: Idade, Sexo, Estado Civil e Localização (Tipo de Cidade e Estado).
 
-Quais faixas etárias  têm maior potencial de conversão?
+Dados do Produto: ID do Produto e Categoria.
 
+Target (Alvo): Valor total da compra realizada no mês anterior.
 
-Como o comportamento muda ao longo do período promocional?
+🧠 Objetivos do Projeto
+Business Intelligence: Criar um Dashboard interativo que facilite a visualização de insights para a tomada de decisão da equipe de marketing.
 
-🧠 Objetivo do Projeto
+Rentabilidade: Identificar os grupos de clientes mais lucrativos.
 
-Construir um dashboard interativo que permita:
+Suporte Estratégico: Auxiliar decisões de marketing e campanhas.
 
-Identificar os grupos de clientes mais lucrativos
+Ação: Criar insights acionáveis para promoções futuras.
 
-Visualizar tendências de consumo
+📈 Indicadores Chave de Performance (KPIs)
+O dashboard monitora as seguintes métricas estratégicas:
 
-Auxiliar decisões de marketing e campanhas
+👥 Perfil do Cliente (Demográfico)
+Total de Clientes: Volume total de consumidores únicos na base.
 
-Criar insights acionáveis para promoções futuras
+Distribuição por Gênero: Percentual de clientes masculinos vs. femininos.
 
-Este projeto demonstra competências essenciais em análise de dados, construção de KPI’s e visualizações estratégicas.
+Composição Civil: Proporção entre clientes casados e solteiros.
 
-🛠️ Ferramentas Utilizadas
+Análise Etária: Identificação das faixas de idade predominantes.
 
-Power BI Desktop
+💰 Comportamento de Consumo (Financeiro)
+Valor de Compra por Gênero: Comparativo de ticket de gasto por sexo.
 
-DAX (criação de métricas e cálculos)
+Gasto por Perfil Civil: Cruzamento do valor de compra entre casados e solteiros.
 
-Modelagem de Dados
+Ticket por Faixa Etária: Análise de qual idade gera o maior volume financeiro.
 
-Limpeza e Transformação no Power Query
+🔍 Análises Multidimensionais
+Matriz Demográfica: Faixa de Idade × Gênero × Estado Civil.
 
-📁 Arquivos do Repositório
+Performance Cruzada: Valor de compra segmentado simultaneamente por idade e estado civil.
 
-Dashboard_BlackFriday.pbix → Arquivo principal do Power BI
+🎨 Apresentação Gráfica e Visualização de Dados
+Utilização das melhores práticas de UI/UX:
 
-dataset.csv → Base utilizada na análise
+Cards (Cartão): Destaque do KPI principal de Total de Clientes.
 
-README.md → Documento explicativo
+Gráfico de Barras Empilhadas: Visualização da proporção de gênero.
 
-/images → Imagens utilizadas no README
+Gráfico de Colunas: Distribuição por idade e cruzamentos de idade x gênero/estado civil.
+
+Gráficos de Rosca (Donuts): Divisão de Estado Civil e Total de Vendas por Sexo.
+
+Gráfico de Barras Agrupadas: Comparativo final de Valor Total de Vendas por Estado Civil e Gênero.
+
+🛠️ Inteligência de Dados com DAX
+Uso da linguagem DAX para cálculos personalizados:
+
+Funções de Contagem: DISTINCTCOUNT (para os 5.891 clientes únicos) e COUNTROWS (volume de transações).
+
+Lógica Condicional: Uso de IF e AND aninhados para segmentação de público.
+
+Navegação: Implementação de Drill-down e Drill-up em matrizes para exploração detalhada.
+
+⚙️ Processo Técnico
+Modelagem de Dados: Estrutura em Star Schema (Esquema Estrela) para otimização de performance.
+
+ETL (Power Query): Rigoroso processo de limpeza e transformação para garantir a integridade das análises.
+
+💾 Origem e Fonte dos Dados
+Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). Base original BlackFriday.csv (Analytics Vidhya / Kaggle).
 
 📸 Imagens do Dashboard
+(Certifique-se de que o arquivo de imagem esteja na pasta raiz do seu GitHub).
 
-Coloque suas imagens aqui após subir a pasta images:
+💡 Principais Insights (Business Insights)
+Perfil Dominante: Homens representam 71,72% da base e 76,79% do volume de vendas.
 
-![Visão Geral](images/blackfriday_01.png)
+Faixa de Ouro: O grupo de 26 a 35 anos é o motor de vendas (34,85% dos clientes).
 
-![Perfil dos Clientes](images/blackfriday_02.png)
+Estado Civil: Solteiros (58%) superam casados (42%) em volume de compras.
 
-![Segmentação](images/blackfriday_03.png)
+Gap de Mercado: O público feminino (23,21% das vendas) possui distribuição etária similar ao masculino, representando uma oportunidade de crescimento via ofertas personalizadas.
 
-🔍 Principais Insights
+Ciclo de Vida: O consumo atinge o ápice aos 35 anos, declinando gradualmente nas faixas posteriores.
 
-Consumidores de 25 a 35 anos representaram a maior taxa de conversão
-
-
-
-🚀 O que eu demonstro neste projeto: 
-
+🚀 Competências Demonstradas
 Domínio de Power BI e DAX
 
-Capacidade de análise estratégica
+Capacidade de análise estratégica e Storytelling com dados
 
 Organização profissional de portfólio
 
-Visual storytelling com dados
+Autor: Marcos Inada
 
-🤘 Autor
-
-Marcos Inada
 Analista de Dados | Power BI | Insights de Produção e Mercado Pet
-Sempre transformando caos em informação útil.
