@@ -1,5 +1,6 @@
 # BLACKFRIDAY 
-! [Dashboard Power BI BLACK Friday]
+! 
+[Dashboard Power BI BLACK Friday]
 (Captura de tela 2025-12-10 044624.png)
 
 
