@@ -83,7 +83,8 @@ ETL (Power Query): Rigoroso processo de limpeza e transformação para garantir 
 Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). Base original BlackFriday.csv (Analytics Vidhya / Kaggle).
 
 📸 Imagens do Dashboard
-(Certifique-se de que o arquivo de imagem esteja na pasta raiz do seu GitHub).
+![Dashboard Black Friday](2025-12-10 044624.png)
+
 
 💡 Principais Insights (Business Insights)
 Perfil Dominante: Homens representam 71,72% da base e 76,79% do volume de vendas.
