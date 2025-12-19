@@ -84,6 +84,8 @@ Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power 
 
 📸 Imagens do Dashboard
 ![Dashboard de BLACKFRIDAY](blackfriday.png.png)  
+![Dashboard de BLACKFRIDAY](blackfriday.png.2.png)  
+
 
 
 
