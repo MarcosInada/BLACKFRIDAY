@@ -83,7 +83,8 @@ ETL (Power Query): Rigoroso processo de limpeza e transformação para garantir 
 Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). Base original BlackFriday.csv (Analytics Vidhya / Kaggle).
 
 📸 Imagens do Dashboard
-![Dashboard Black Friday](Captura de tela 2025-12-10 044624.png)
+![Dashboard de BLACKFRIDAY](blackfriday.png.png)  
+
 
 
 # 💡 Principais Insights (Business Insights)
