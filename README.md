@@ -4,6 +4,11 @@ Dashboard em Power BI para análise de perfil de cliente durante a Black Friday.
 # 🛒 Black Friday – Análise do Perfil dos Clientes 📊 Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
 
 Este projeto apresenta uma análise completa sobre o perfil dos clientes no período de Black Friday, explorando padrões de compra, comportamento, hábitos e oportunidades estratégicas para aumentar as vendas e a segmentação.
+# 📸 Imagens do Dashboard
+![Dashboard de BLACKFRIDAY](blackfriday.png.png)  
+![Dashboard de BLACKFRIDAY](blackfriday.png.2.png)  
+![Dashboard de BLACKFRIDAY](dashboard_rh.png.3.png)  
+
 
 # 📝 Contexto do Projeto
 A ABC Private Limited, uma empresa do setor de varejo, busca otimizar sua estratégia de vendas através da análise de dados. O objetivo principal é compreender o comportamento de compra dos clientes em relação a diferentes categorias de produtos de alto volume.
@@ -82,10 +87,6 @@ ETL (Power Query): Rigoroso processo de limpeza e transformação para garantir 
 # 💾 Origem e Fonte dos Dados
 Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). Base original BlackFriday.csv (Analytics Vidhya / Kaggle).
 
-📸 Imagens do Dashboard
-![Dashboard de BLACKFRIDAY](blackfriday.png.png)  
-![Dashboard de BLACKFRIDAY](blackfriday.png.2.png)  
-![Dashboard de BLACKFRIDAY](dashboard_rh.png.3.png)  
 
 
 
