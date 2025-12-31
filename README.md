@@ -1,5 +1,9 @@
-# BLACKFRIDAY
-Dashboard em Power BI para análise de perfil de cliente durante a Black Friday.
+# BLACK FRIDAY
+
+Dashboard em Power BI para análise do perfil de clientes durante a Black Friday
+
+🛒 Black Friday – Análise do Perfil dos Clientes
+Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
 
 # 🛒 Black Friday – Análise do Perfil dos Clientes 📊 Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
 
@@ -10,108 +14,119 @@ Este projeto apresenta uma análise completa sobre o perfil dos clientes no per�
 ![Dashboard de BLACKFRIDAY](dashboard_rh.png.3.png)  
 
 
-# 📝 Contexto do Projeto
-A ABC Private Limited, uma empresa do setor de varejo, busca otimizar sua estratégia de vendas através da análise de dados. O objetivo principal é compreender o comportamento de compra dos clientes em relação a diferentes categorias de produtos de alto volume.
+#📝 Contexto do Projeto
 
-A empresa deseja migrar de uma estratégia de marketing generalista para um modelo de ofertas personalizadas. Para isso, é necessário prever quanto um cliente está disposto a gastar em determinados produtos com base em seu perfil demográfico e histórico recente.
+A ABC Private Limited, empresa do setor varejista, busca otimizar sua estratégia de vendas por meio da análise de dados. O principal desafio é migrar de um modelo de marketing generalista para uma abordagem baseada em ofertas personalizadas, utilizando dados demográficos e histórico recente de compras.
+O projeto utiliza dados de compras do último mês para compreender quanto cada cliente está disposto a gastar em diferentes categorias de produto
 
 # 💾 Sobre o Conjunto de Dados
-Os dados referem-se ao resumo de compras do último mês e contêm informações detalhadas que cruzam o perfil do consumidor com os produtos adquiridos:
 
-Dados Demográficos: Idade, Sexo, Estado Civil e Localização (Tipo de Cidade e Estado).
+O dataset contém informações que relacionam o perfil do consumidor aos produtos adquiridos:
 
-Dados do Produto: ID do Produto e Categoria.
+Dados Demográficos
 
-Target (Alvo): Valor total da compra realizada no mês anterior.
+Idade
+
+Sexo
+
+Estado civil
+
+Tipo de cidade
+
+Estado
+
+Dados do Produto
+
+ID do Produto
+
+Categoria do Produto
+
+Variável Alvo
+
+Valor total da compra realizada no mês anterior
 
 # 🧠 Objetivos do Projeto
-Business Intelligence: Criar um Dashboard interativo que facilite a visualização de insights para a tomada de decisão da equipe de marketing.
 
-Rentabilidade: Identificar os grupos de clientes mais lucrativos.
+Criar um dashboard interativo para suporte à tomada de decisão
 
-Suporte Estratégico: Auxiliar decisões de marketing e campanhas.
+Identificar os grupos de clientes mais lucrativos
 
-Ação: Criar insights acionáveis para promoções futuras.
+Apoiar estratégias de marketing e campanhas promocionais
 
-# 📈 Indicadores Chave de Performance (KPIs)
-O dashboard monitora as seguintes métricas estratégicas:
+Gerar insights acionáveis para períodos promocionais futuros
 
-# 👥 Perfil do Cliente (Demográfico)
-Total de Clientes: Volume total de consumidores únicos na base.
+# 📈 Indicadores-Chave de Desempenho (KPIs)
+### 👥 Perfil do Cliente
 
-Distribuição por Gênero: Percentual de clientes masculinos vs. femininos.
+Total de clientes únicos
 
-Composição Civil: Proporção entre clientes casados e solteiros.
+Distribuição por gênero
 
-Análise Etária: Identificação das faixas de idade predominantes.
+Composição por estado civil
 
-# 💰 Comportamento de Consumo (Financeiro)
-Valor de Compra por Gênero: Comparativo de ticket de gasto por sexo.
+Análise por faixa etária
 
-Gasto por Perfil Civil: Cruzamento do valor de compra entre casados e solteiros.
+### 💰 Comportamento de Consumo
 
-Ticket por Faixa Etária: Análise de qual idade gera o maior volume financeiro.
+Valor de compra por gênero
 
-# 🔍 Análises Multidimensionais
-Matriz Demográfica: Faixa de Idade × Gênero × Estado Civil.
+Gasto por estado civil
 
-Performance Cruzada: Valor de compra segmentado simultaneamente por idade e estado civil.
+Ticket médio por faixa etária
 
-# 🎨 Apresentação Gráfica e Visualização de Dados
-Utilização das melhores práticas de UI/UX:
+### 🔍 Análises Multidimensionais
 
-Cards (Cartão): Destaque do KPI principal de Total de Clientes.
+Faixa etária × Gênero × Estado civil
 
-Gráfico de Barras Empilhadas: Visualização da proporção de gênero.
+Valor de compra cruzado por perfil demográfico
 
-Gráfico de Colunas: Distribuição por idade e cruzamentos de idade x gênero/estado civil.
+# 🎨 Visualização de Dados
 
-Gráficos de Rosca (Donuts): Divisão de Estado Civil e Total de Vendas por Sexo.
+Aplicação de boas práticas de UI/UX, com os seguintes elementos:
 
-Gráfico de Barras Agrupadas: Comparativo final de Valor Total de Vendas por Estado Civil e Gênero.
+Cartões de KPI
+
+Gráficos de barras empilhadas
+
+Gráficos de colunas
+
+Gráficos de rosca (donut)
+
+Gráficos de barras agrupadas
 
 # 🛠️ Inteligência de Dados com DAX
-Uso da linguagem DAX para cálculos personalizados:
 
-Funções de Contagem: DISTINCTCOUNT (para os 5.891 clientes únicos) e COUNTROWS (volume de transações).
-
-Lógica Condicional: Uso de IF e AND aninhados para segmentação de público.
-
-Navegação: Implementação de Drill-down e Drill-up em matrizes para exploração detalhada.
+DISTINCTCOUNT para cálculo de clientes únicos (5.891 clientes)
+COUNTROWS para volume de transações
+Uso de IF e AND para segmentações condicionais
+Implementação de Drill-down e Drill-up para análises detalhadas 
 
  # ⚙️ Processo Técnico
+ETL (Power Query): Limpeza, padronização e transformação dos dados
 Modelagem de Dados: Estrutura em Star Schema (Esquema Estrela) para otimização de performance.
-
-ETL (Power Query): Rigoroso processo de limpeza e transformação para garantir a integridade das análises.
 
 # 💾 Origem e Fonte dos Dados
 Dados obtidos através do curso "Business Intelligence Completo do ETL ao Power BI" do professor André Rosa (Udemy). Base original BlackFriday.csv (Analytics Vidhya / Kaggle).
 
+# 💡 Principais Insights
 
+Perfil dominante: Homens representam 71,72% dos clientes e 76,79% do volume de vendas
+Faixa etária mais lucrativa: 26 a 35 anos (34,85% da base)
+Estado civil: Solteiros concentram 58% das compras
+Oportunidade de mercado: Público feminino apresenta potencial de crescimento com campanhas personalizadas
+Ciclo de consumo: Pico aos 35 anos, com queda gradual nas faixas etárias seguintes
 
-
-
-
-
-# 💡 Principais Insights (Business Insights)
-Perfil Dominante: Homens representam 71,72% da base e 76,79% do volume de vendas.
-
-Faixa de Ouro: O grupo de 26 a 35 anos é o motor de vendas (34,85% dos clientes).
-
-Estado Civil: Solteiros (58%) superam casados (42%) em volume de compras.
-
-Gap de Mercado: O público feminino (23,21% das vendas) possui distribuição etária similar ao masculino, representando uma oportunidade de crescimento via ofertas personalizadas.
-
-Ciclo de Vida: O consumo atinge o ápice aos 35 anos, declinando gradualmente nas faixas posteriores.
 
 # 🚀 Competências Demonstradas
-Domínio de Power BI e DAX
 
-Capacidade de análise estratégica e Storytelling com dados
-
+Power BI avançado
+DAX
+Análise de dados e storytelling
+Visualização de dados orientada a negócio
 Organização profissional de portfólio
+
 # Status 
-Projeto finalizado para fins de portfolio profissional.
+Projeto finalizado para fins de portfólio profissional.
 
 ## Autor: Marcos Inada
 
