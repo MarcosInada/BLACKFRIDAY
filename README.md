@@ -11,7 +11,7 @@ Este projeto apresenta uma análise completa sobre o perfil dos clientes no per�
 ![Dashboard de BLACKFRIDAY](dashboard_rh.png.3.png)  
 
 
-#📝 Contexto do Projeto
+# 📝 Contexto do Projeto
 
 A ABC Private Limited, empresa do setor varejista, busca otimizar sua estratégia de vendas por meio da análise de dados. O principal desafio é migrar de um modelo de marketing generalista para uma abordagem baseada em ofertas personalizadas, utilizando dados demográficos e histórico recente de compras.
 O projeto utiliza dados de compras do último mês para compreender quanto cada cliente está disposto a gastar em diferentes categorias de produto
