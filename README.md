@@ -1,9 +1,6 @@
 # BLACK FRIDAY
 
-Dashboard em Power BI para análise do perfil de clientes durante a Black Friday
-
-🛒 Black Friday – Análise do Perfil dos Clientes
-Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
+### Dashboard em Power BI para análise do perfil de clientes durante a Black Friday
 
 # 🛒 Black Friday – Análise do Perfil dos Clientes 📊 Projeto de Power BI | Comportamento do Consumidor | Dashboard Profissional
 
